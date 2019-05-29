@@ -46,7 +46,8 @@ namespace Loading.WPF
 
         void Worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            for (int i = 0; i <= 100; i++)
+            int maximum = 100;
+            for (int i = 0; i <= maximum; i++)
             {
                 (sender as BackgroundWorker).ReportProgress(i);
                 Thread.Sleep(50);

@@ -10,7 +10,6 @@
     <Grid>
         <ProgressBar Height="25"
                     HorizontalAlignment="Center"
-                     Minimum="0" Maximum="100"
                      Name="progressBar"/>
         <TextBlock Text="{Binding ElementName=progressBar, Path=Value, StringFormat={}{0:0}%}" 
                    HorizontalAlignment="Center" TextAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.467,1.895" Margin="374,224,373,163" Width="45" Height="32" />
